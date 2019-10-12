@@ -34,11 +34,22 @@ h1 {
   text-align: center;
 }
 
-#button {
+#butProj {
   background-color: black;
   margin-top: 5px;
 }
-
+#butLink {
+  background-color: black;
+  margin-top: 5px;
+}
+#butGit {
+  background-color: black;
+  margin-top: 5px;
+}
+#butCont {
+  background-color: black;
+  margin-top: 5px;
+}
 #nav {
   margin-left: 50px !important;
   margin-right: 50px !important;
