@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+h1 {
+  letter-spacing: 15px !important;
+  position: relative;
+  font-family: 'edmondsansmedium' !important;
+  font-size: 50px !important;
+  text-transform: uppercase;
+  width: auto;
+  line-height: 0.8em;
+  border: 5px solid black;
+  padding: 0.2em;
+  text-align: center;
+}
+
+#button {
+  text-align: center;
+}
+
+#main {
+  position: absolute;
+  height: 400px;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  font-size: 50px !important;
+  text-transform: uppercase;
+  width: auto;
+  line-height: 0.8em;
+  padding: 0.2em;
+  text-align: center;
+}
+
+#button {
+  background-color: black;
+  margin-top: 5px;
+}
+
+#nav {
+  margin-left: 50px !important;
+  margin-right: 50px !important;
+}
