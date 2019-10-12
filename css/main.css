@@ -6,7 +6,7 @@ body {
 h1 {
   letter-spacing: 15px !important;
   position: relative;
-  font-family: 'edmondsansmedium' !important;
+  font-family: "edmondsansmedium" !important;
   font-size: 50px !important;
   text-transform: uppercase;
   width: auto;
