@@ -1,2 +1,3 @@
 # Portfolio-Three.JS
-Portfolio with Animations
+
+Portfolio with animations in 3JS.
