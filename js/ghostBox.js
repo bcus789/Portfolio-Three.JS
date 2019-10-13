@@ -29,7 +29,7 @@ window.addEventListener("resize", () => {
 var geometry = new THREE.BoxGeometry(1, 1, 1);
 var material = new THREE.MeshLambertMaterial({ color: 0xf7f7f7 });
 
-var ghostBoxes = 400;
+var ghostBoxes = 500;
 var boxes = [];
 
 meshX = -10;
@@ -52,7 +52,7 @@ var render = function() {
   renderer.render(scene, camera);
   for (var i = 1; i <= ghostBoxes; i++) {
     this.tl = new TimelineMax();
-    this.tl.to(boxes[i - 1].rotation, 2500, {
+    this.tl.to(boxes[i - 1].rotation, 1900, {
       x: (i * Math.PI) / 20,
       y: (i * Math.PI) / 40,
       ease: Expo.easeOut
