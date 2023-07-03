@@ -1,6 +1,6 @@
 document.getElementById("butProj").onclick = function() {
   console.log("hello");
-  location.href = "https://cponline.pw/";
+  location.href = "https://castledd.com/";
 };
 document.getElementById("butLink").onclick = function() {
   console.log("hello")

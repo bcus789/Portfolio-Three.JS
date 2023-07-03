@@ -20,6 +20,19 @@ h1 {
   text-align: center;
 }
 
+#butGit:hover{
+  color:black;
+  background-color: white;
+}
+#butLink:hover{
+  color:black;
+  background-color: white;
+}
+#butProj:hover{
+  color:black;
+  background-color: white;
+}
+
 #main {
   position: absolute;
   height: 400px;
